@@ -186,6 +186,40 @@ public class Main {
         System.out.println("В среднем потребуется " + average + " дней чтобы похудеть спортсмену, скидывая 250-500 грамм в день");
 
         System.out.println("Восьмое задание");
+        byte totalSalaryInterest = 100;
+        byte additionalPercentage = 10;
+        byte annualSalarySupplementAsAPercentage = (byte) (totalSalaryInterest + additionalPercentage); // общий процент к зп
+        byte numberOfMonthsInAYear = 12; //кол-во месяцев в году
 
+        int mashaIsMonthlySalary = 67760;
+        System.out.println("Нынешняя зарплата Маши в месяц " + mashaIsMonthlySalary + " рублей.");
+        int mashaAnnualSalary = mashaIsMonthlySalary * numberOfMonthsInAYear;
+        System.out.println("Нынешняя зарплата Маши в год " + mashaAnnualSalary + " рублей.");
+        int mashaSalaryWithAPercentage = annualSalarySupplementAsAPercentage * mashaIsMonthlySalary / totalSalaryInterest;
+        int mashaAnnualSalaryWithInterest = mashaSalaryWithAPercentage * numberOfMonthsInAYear; //нынешний годовой доход с процентами
+        int mashaAnnualIncomeGrewBy = mashaAnnualSalaryWithInterest - mashaAnnualSalary;
+        System.out.println("Маша теперь получает " + mashaSalaryWithAPercentage + " рублей. Годовой доход вырос на " + mashaAnnualIncomeGrewBy + " рублей");
+
+        int denisIsMonthlySalary = 83690;
+        System.out.println("Нынешняя зарплата Дениса в месяц " + denisIsMonthlySalary + " рублей.");
+        int denisAnnualSalary = denisIsMonthlySalary * numberOfMonthsInAYear;
+        System.out.println("Нынешняя зарплата Дениса в год " + denisAnnualSalary + " рублей.");
+        int denisSalaryWithAPercentage = annualSalarySupplementAsAPercentage * denisIsMonthlySalary / totalSalaryInterest;
+        int denisAnnualSalaryWithInterest = denisSalaryWithAPercentage * numberOfMonthsInAYear; //нынешний годовой доход с процентами
+        int denisAnnualIncomeGrewBy = denisAnnualSalaryWithInterest - denisAnnualSalary;
+        System.out.println("Денис теперь получает " + denisSalaryWithAPercentage + " рублей. Годовой доход вырос на " + denisAnnualIncomeGrewBy + " рублей");
+
+        int christinaIsMonthlySalary = 76230;
+        System.out.println("Нынешняя зарплата Кристины в месяц " + christinaIsMonthlySalary + " рублей.");
+        int christinaAnnualSalary = christinaIsMonthlySalary * numberOfMonthsInAYear;
+        System.out.println("Нынешняя зарплата Кристины в год " + christinaAnnualSalary + " рублей.");
+        int christinaSalaryWithAPercentage = annualSalarySupplementAsAPercentage * christinaIsMonthlySalary / totalSalaryInterest;
+        int christinaAnnualSalaryWithInterest = christinaSalaryWithAPercentage * numberOfMonthsInAYear; //нынешний годовой доход с процентами
+        int christinaAnnualIncomeGrewBy = christinaAnnualSalaryWithInterest - christinaAnnualSalary;
+        System.out.println("Кристина теперь получает " + christinaSalaryWithAPercentage + " рублей. Годовой доход вырос на " + christinaAnnualIncomeGrewBy + " рублей");
     }
+
+
+
+
 }
