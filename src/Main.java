@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
        //Первое занятие по переменным
         System.out.println("Первое задание");
+
         double dog = 8;
         System.out.println(dog);
         dog = dog + 4;
@@ -10,6 +11,7 @@ public class Main {
         System.out.println(dog);
 
         System.out.println("Второе задание");
+
         var cat = 3.6;
         System.out.println(cat);
         cat = cat + 4;
@@ -18,6 +20,7 @@ public class Main {
         System.out.println(cat);
 
         System.out.println("Третье задание");
+
         var paper = 763789;
         System.out.println(paper);
         paper = paper + 4;
@@ -26,6 +29,7 @@ public class Main {
         System.out.println(paper);
 
         System.out.println("Четвертое задание");
+
         var friend = 19;
         System.out.println(friend);
         friend = friend + 2;
@@ -34,6 +38,7 @@ public class Main {
         System.out.println(friend);
 
         System.out.println("Пятое задание");
+
         var frog = 3.5;
         System.out.println(frog);
         frog = frog * 10;
@@ -44,6 +49,7 @@ public class Main {
         System.out.println(frog);
 
         System.out.println("Шестое задание");
+
         var weightBox1 = 78.2;
         var weightBox2 = 82.7;
         var commonWeight = weightBox1 + weightBox2;
@@ -52,6 +58,7 @@ public class Main {
         System.out.println("Разница в весе составляет " + weightDifference + "кг" );
 
         System.out.println("Седьмое задание");
+
         var weightBox01 = 78.2;
         var weightBox02 = 82.7;
         var weightDifference1 = weightBox02 - weightBox01;
@@ -60,12 +67,14 @@ public class Main {
         System.out.println("Вторая разница в весе через функцию остатка от деления составляет " + weightDifference2 + "кг" );
 
         System.out.println("Восьмое задание 01");
+
         var commonClock01 = 640;
         var clockForOneEmployee01 = 8;
         var wholeWorkers01 = commonClock01 / clockForOneEmployee01;
         System.out.println("Всего работников в компании – " + wholeWorkers01 + " человек");
 
         System.out.println("Восьмое задание 02");
+
         var commonClock02 = 640;
         var wholeWorkers02 = 94;
         var clockForOneEmployee02 =  commonClock02 / wholeWorkers02;
@@ -73,6 +82,7 @@ public class Main {
 
         //Второе занятие по переменным
         System.out.println("Первое задание");
+
         int aPer = 20222022;
         System.out.println("Значение переменной aPer с типом int равно " + aPer );
         byte bPer = 122;
@@ -87,6 +97,7 @@ public class Main {
         System.out.println("Значение переменной fPer с типом double равно " + fPer );
 
         System.out.println("Второе задание");
+
         int aPer1 = -159;
         System.out.println(aPer1);
         byte bPer1 = 2;
@@ -105,6 +116,7 @@ public class Main {
         System.out.println(hPer1);
 
         System.out.println("Третье задание");
+
         byte ludPav = 23; //первый класс
         System.out.println("Первый класс состоит из " + ludPav + " человек.");
         byte annSer = 27; //второй класс
@@ -119,6 +131,7 @@ public class Main {
         System.out.println("На каждого ученика рассчитано " + listPerStud + " листов бумаги.");
 
         System.out.println("Четвертое задание");
+
         byte twoMinutesB = 16;
         System.out.println("За две минуты машина произвела " + twoMinutesB + " бутылок");
         byte oneMinuteB = 16 / 2;
@@ -136,6 +149,7 @@ public class Main {
         System.out.println("За месяц машина произвела " + monthB + " бутылок");
 
         System.out.println("Пятое задание");
+
         byte allKr = 120; //всего банок красок
         System.out.println("На ремонт школы нужно " + allKr + " краски двух цветов");
         byte whKrOneClass = 2;
@@ -150,6 +164,7 @@ public class Main {
         System.out.println("В школе, где " + totalClassesInTheSchool + " классов, нужно " + totalCansOfWhitePaint + " банок белой краски и " + totalCansOfBrownPaint + " банок коричневой краски");
 
         System.out.println("Шестое задание");
+
         byte numberOfBananas = 5; // кол-во бананов
         byte weightOfOnBanana = 80; //вес одного банана
         int totalWeightOfBananas = numberOfBananas * weightOfOnBanana; //общий вес бананов
@@ -173,6 +188,7 @@ public class Main {
         System.out.println("Общий вес спорт-завтрака " + weightOfSportsBreakfastInKilograms + " килограмм");
 
         System.out.println("Седьмое задание");
+
         byte justNeedToReset = 7;
         short weightLossIsOptionOne = 250;
         short weightLossIsOptionTwo = 500;
@@ -186,6 +202,7 @@ public class Main {
         System.out.println("В среднем потребуется " + average + " дней чтобы похудеть спортсмену, скидывая 250-500 грамм в день");
 
         System.out.println("Восьмое задание");
+
         byte totalSalaryInterest = 100;
         byte additionalPercentage = 10;
         byte annualSalarySupplementAsAPercentage = (byte) (totalSalaryInterest + additionalPercentage); // общий процент к зп
@@ -217,6 +234,7 @@ public class Main {
         int christinaAnnualSalaryWithInterest = christinaSalaryWithAPercentage * numberOfMonthsInAYear; //нынешний годовой доход с процентами
         int christinaAnnualIncomeGrewBy = christinaAnnualSalaryWithInterest - christinaAnnualSalary;
         System.out.println("Кристина теперь получает " + christinaSalaryWithAPercentage + " рублей. Годовой доход вырос на " + christinaAnnualIncomeGrewBy + " рублей");
+
     }
 
 
